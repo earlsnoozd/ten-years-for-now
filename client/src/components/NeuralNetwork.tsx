@@ -163,7 +163,7 @@ export default function NeuralNetwork({ className = '' }: NeuralNetworkProps) {
   return (
     <canvas
       ref={canvasRef}
-      className={`fixed inset-0 -z-10 ${className}`}
+      className={`fixed inset-0 z-0 pointer-events-none ${className}`}
       data-testid="neural-network-canvas"
     />
   );
