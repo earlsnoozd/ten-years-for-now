@@ -90,14 +90,15 @@ export default function NeuralNetwork({ className = '' }: NeuralNetworkProps) {
         node.x = Math.max(0, Math.min(canvas.width, node.x));
         node.y = Math.max(0, Math.min(canvas.height, node.y));
 
-        // Mouse interaction
+        // Mouse interaction - nodes move away from cursor
         const mouseDistance = Math.sqrt(
           (node.x - mouseRef.current.x) ** 2 + (node.y - mouseRef.current.y) ** 2
         );
-        if (mouseDistance < 100) {
-          const force = (100 - mouseDistance) / 100;
-          node.vx += (node.x - mouseRef.current.x) * force * 0.001;
-          node.vy += (node.y - mouseRef.current.y) * force * 0.001;
+        if (mouseDistance < 150) {
+          const force = (150 - mouseDistance) / 150;
+          const repelForce = force * 0.005;
+          node.vx += (node.x - mouseRef.current.x) * repelForce;
+          node.vy += (node.y - mouseRef.current.y) * repelForce;
         }
       });
 
@@ -163,7 +164,7 @@ export default function NeuralNetwork({ className = '' }: NeuralNetworkProps) {
   return (
     <canvas
       ref={canvasRef}
-      className={`fixed inset-0 z-0 pointer-events-none ${className}`}
+      className={`fixed inset-0 z-0 ${className}`}
       data-testid="neural-network-canvas"
     />
   );
