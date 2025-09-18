@@ -7,7 +7,7 @@ const visionData = [
   {
     id: 'career',
     title: 'Career Vision',
-    content: "In ten years, I see myself thriving in a career I love. I work with technology, building AI systems that solve real problems and make life easier. My job gives me freedom, it doesn't require me to work long hours and stable enough to provide for my family while still having time for them and myself. I'm confident, skilled, and respected in my field, using my knowledge to grow and help others around me.",
+    content: "In ten years, I see myself thriving in a career I love as an AI Engineer specializing in AI Security. I work with technology, building AI systems that solve real problems and make life easier while ensuring they are safe and secure. My job gives me freedom, it doesn't require me to work long hours and stable enough to provide for my family while still having time for them and myself. I'm confident, skilled, and respected in my field, using my knowledge to grow and help others around me.",
   },
   {
     id: 'lifestyle',
