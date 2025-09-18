@@ -1,0 +1,69 @@
+Project Overview:
+Create a futuristic personal blog website titled “My Life in 10 Years” that blends minimalism, boldness, and cosmic-inspired AI visuals. Instead of stars, the background should feature animated neural network patterns that feel alive, dynamic, and slightly abstract, giving a “living AI universe” vibe.
+
+Theme & Aesthetic:
+
+Dark galaxy-inspired background (#0a0a1a to #1a1a3a gradient).
+
+Text contrast: white for headlines, light gray (#d0d0d0) for content.
+
+Apple’s minimalism (clean spacing, elegant typography).
+
+Tesla’s boldness (strong contrasts, sleek edges).
+
+Starlink cosmic inspiration → Neural Network twist: interconnected nodes and lines glowing like synapses across the background.
+
+Subtle neon accents (#00ffff, #6a5acd, #ff69b4) for nodes, connections, and hover effects.
+
+Layout & Features:
+
+Hero Section:
+
+Full-screen neural network animation in the background.
+
+Centered headline: “My Life in 10 Years”
+
+Inspiring tagline underneath, fading in smoothly.
+
+Scroll-Based Sections:
+
+Career Vision
+
+Lifestyle & Growth
+
+Impact & Legacy
+
+Closing Note
+
+Each section: parallax effects, text fade-ins, and neural network subtly animating behind or around content.
+
+Navigation:
+
+Minimal sticky top navigation with section links.
+
+Fades during scroll. Smooth scroll effect when clicked.
+
+Animations & Interactivity:
+
+Fade-in text and images on scroll.
+
+Parallax movement of neural network nodes (slow, subtle).
+
+Hover effects: glowing nodes or lines for interactive elements.
+
+Responsiveness:
+
+Fully responsive design for desktop, tablet, and mobile.
+
+Neural network background scales and animates appropriately on smaller screens.
+
+Optional Enhancements:
+
+Dynamic node activity: nodes light up as user scrolls or hovers.
+
+Subtle pulsing lines connecting nodes to simulate neural signals.
+
+Occasional “spark” animations across connections to add life.
+
+Goal:
+Deliver a futuristic, minimal, AI-inspired personal vision website where neural networks replace stars, creating an immersive, living, and aspirational experience that reflects your career and life vision.
