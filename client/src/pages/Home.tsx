@@ -59,7 +59,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-neural-cyan to-transparent mx-auto mb-8"></div>
           <p className="text-gray-400 text-sm">
-            © 2024 Jairus Earl S. Baquiran. A vision of tomorrow, built today.
+            © 2025 Jairus Earl S. Baquiran. A vision of tomorrow, built today.
           </p>
         </div>
       </footer>
